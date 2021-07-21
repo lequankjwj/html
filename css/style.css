@@ -5,8 +5,7 @@
     /* mennu top */
     
     .box_bgheadertop {
-        background: rgb(220, 136, 2);
-        background: linear-gradient(90deg, rgba(220, 136, 2, 1) 0%, rgba(251, 183, 76, 1) 100%);
+        background-image: linear-gradient(to right, #d93323, #fbae17);
     }
     
     .bgheadertop {
@@ -360,6 +359,7 @@
         overflow: hidden;
         height: 100%;
         max-height: 450px;
+        box-shadow: unset!important;
     }
     
     .title_big {
@@ -369,6 +369,7 @@
         visibility: visible;
         animation-name: slideInLeft;
         font-weight: 700;
+        color: #30409a;
     }
     
     .shadow img {
@@ -945,8 +946,7 @@
         position: relative;
         padding: 15px 0px;
         color: #000;
-        background: rgb(220, 136, 2);
-        background: linear-gradient( 90deg, rgba(220, 136, 2, 1) 0%, rgba(251, 183, 76, 1) 100%);
+        background-image: linear-gradient(to right, #fbae17, #d93323);
     }
     /* contact */
     
@@ -1143,7 +1143,7 @@
         height: 50px;
         line-height: 45px;
         z-index: 400;
-        background: #27387c;
+        background: #30409a;
         border-radius: 50%;
         -webkit-border-radius: 50%;
         -moz-border-radius: 50%;
@@ -1171,4 +1171,227 @@
     .fb {
         height: 100%;
         border: 1px solid #656060;
+    }
+    /* ------ */
+    
+    .img_style {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 30%;
+    }
+    
+    .shadow_img {
+        border-radius: 4px;
+        position: relative;
+        overflow: hidden;
+        height: 100%;
+        max-height: 450px;
+    }
+    
+    .shadow_img .img_main {
+        padding: 30px;
+        box-shadow: unset;
+        width: 100%;
+    }
+    /* page tintuc */
+    
+    .tintuc .news img {
+        width: 100%;
+        height: 360px;
+    }
+    
+    .banner {
+        background-image: url(../img/bgbb.png);
+        background-size: cover;
+        padding: 12% 0;
+        position: relative;
+    }
+    
+    .banner .mau {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #30409ad3;
+        padding-top: 8%;
+    }
+    
+    .banner h3 {
+        text-align: center;
+        color: #fff;
+        text-transform: uppercase;
+        margin: 0;
+        font-size: 40px;
+        /* transform: translatey(-16px); */
+        font-weight: bold;
+    }
+    
+    .breadcrumb {
+        padding: 8px 15px;
+        margin-bottom: 20px;
+        list-style: none;
+        background-color: transparent;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        margin: 0;
+        /* padding-left: 0 !important; */
+    }
+    
+    .breadcrumb li {
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    
+    .breadcrumb li a {
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+    
+    .breadcrumb>.active {
+        color: #777;
+    }
+    
+    .breadcrumb>li+li:before {
+        padding: 0 5px;
+        color: #ccc;
+        content: '>';
+    }
+    /* page thu vien anh */
+    
+    .thuvienanh img {
+        width: 100%;
+    }
+    
+    .thuvienanh .thumb_image_gallery {
+        border-radius: 6px;
+        border: 2px solid #dc8802;
+        overflow: hidden;
+        margin-top: 30px;
+    }
+    
+    .thuvienanh .box-img:hover img {
+        width: 100%;
+    }
+    /* phan tranng */
+    
+    .pagination-ajax,
+    .pagination1 {
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        color: #444;
+    }
+    
+    .pagination-ajax li,
+    .pagination1 li {
+        display: inline-block;
+    }
+    
+    .pagination-ajax a,
+    .pagination1 a {
+        cursor: pointer;
+        display: block;
+        margin: 2px 4px 2px 0px;
+        padding: 10px 14px;
+        background-color: #f2f2f2;
+        line-height: 1.0;
+    }
+    
+    .pagination-ajax .active a,
+    .pagination-ajax a:hover,
+    .pagination1 a:hover,
+    .pagination1 .active a {
+        background-color: #dc8802;
+        color: #fff;
+        text-decoration: underline !important;
+    }
+    
+    .pagination-ajax a,
+    .pagination1 a {
+        cursor: pointer;
+        display: block;
+        margin: 2px 4px 2px 0px;
+        padding: 10px 14px;
+        background-color: #f2f2f2;
+        line-height: 1.0;
+    }
+    /* liennhe */
+    
+    .contact .form h3 {
+        margin: 0px 0px 25px 0px;
+        font-family: var(--font-bold);
+        font-size: 35px;
+        text-transform: uppercase;
+    }
+    
+    .contact .form .td {
+        box-sizing: border-box;
+        float: left;
+        margin-bottom: 15px;
+    }
+    
+    .contact .form .td1 {
+        margin-right: 15px;
+        width: calc(((100% + 15px) / 2 - 15px));
+        width: -moz-calc(((100% + 15px) / 2 - 15px));
+        width: -o-calc(((100% + 15px) / 2 - 15px));
+        width: -webkit-calc(((100% + 15px) / 2 - 15px));
+        width: -ms-calc(((100% + 15px) / 2 - 15px));
+    }
+    
+    .contact .form .txtcontact,
+    .contact .form select {
+        height: 50px;
+    }
+    
+    .contact .form .td1:nth-child(2n) {
+        margin-right: 0px;
+    }
+    
+    .contact .form textarea,
+    .contact .form .txtcontact,
+    .contact .form select {
+        box-sizing: border-box;
+        width: 100%;
+        border: 1px solid #e4e4e4;
+        padding: 0px 15px;
+        font-family: var(--font-regular);
+        border-radius: 5px;
+    }
+    
+    .contact .form .td2 {
+        width: 100%;
+    }
+    
+    .contact .form button,
+    .contact .form input[type="submit"] {
+        float: left;
+        border: 3px solid #ededed;
+        padding: 15px 25px;
+        margin-right: 15px;
+        background-color: #ecc800;
+        font-family: var(--font-bold);
+        font-size: 18px;
+        text-transform: uppercase;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+    
+    .bg_lienhe {
+        margin: 45px 0;
+    }
+    
+    .contact .ckeditor {
+        background-color: #fff;
+        box-shadow: 0px 0px 5px #00000042;
+        padding: 20px;
     }
