@@ -43,25 +43,10 @@
     outline: none;
 }
 
-.bgheadertop {
-    padding: 5px 0px;
-    color: #000;
-    font-size: 15px;
-}
-
 .flex-space-between {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-}
-
-.bghotline {
-    padding-right: 15px;
-}
-
-.bghotline i,
-.bgdiachi i {
-    padding-right: 6px;
 }
 
 .mxh img {
