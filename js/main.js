@@ -94,6 +94,3 @@ function changeImage(e) {
 function toggleNavigation() {
     this.nextElementSibling.classList.toggle('active');
 }
-
-productImages.forEach(image => image.addEventListener("click", changeImage));
-navItem.addEventListener('click', toggleNavigation);
