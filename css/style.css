@@ -43,10 +43,6 @@
     outline: none;
 }
 
-.box_bgheadertop {
-    background-image: linear-gradient(to right, #d93323, #fbae17);
-}
-
 .bgheadertop {
     padding: 5px 0px;
     color: #000;
